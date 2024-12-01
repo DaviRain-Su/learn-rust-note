@@ -18,5 +18,9 @@ fn main() {
         d = gcd(d, *m);
     }
 
+    println!(
+        "In the room the women come and go,
+        Signing to each other's hands"
+    );
     println!("The greatest common divisor of {:?}  is {}", numbers, d);
 }
